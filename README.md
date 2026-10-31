@@ -10,19 +10,24 @@ Minimal playground; no magic, just code. MIT licensed.
 
 
 ## Project structure
-
 ```
 .
 ├── src/
-│   └── index.ts
+│   ├── index.ts
+│   └── utils.ts
+├── .gitignore
+├── LICENSE
+├── README.md
+├── package.json
 └── tsconfig.json
 ```
 
 ## Usage
 
 ```bash
-go run ./...
+npm ci && npm start
 ```
+
 
 ## Notes
 
